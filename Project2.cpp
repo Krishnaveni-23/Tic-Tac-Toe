@@ -7,6 +7,7 @@ using namespace std;
 void drawBoard(char *space);
 void playerMove(char *space,char player);
 void computerMove(char *space,char computer);
+
 bool checkWinner(char *space,char player,char computer);
 bool checkTie(char *space);
 
